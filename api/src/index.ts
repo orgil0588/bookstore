@@ -1,6 +1,6 @@
-import { ApolloServer } from "apollo-server-express"
 import express from "express"
 import "dotenv/config";
+import { ApolloServer } from "apollo-server-express"
 import connectDB from "./utils/db";
 
 import { typeDefs, resolvers } from './graphql'
