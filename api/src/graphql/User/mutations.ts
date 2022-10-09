@@ -2,7 +2,7 @@
 const params = `
 username : String!
 password: String!
-role: String!
+role: String
 `
 const updateParams = `
 username : String
@@ -11,5 +11,6 @@ role: String
 `
 
 export const mutations = `
-createUser(${params}): User
+register(${params}): User
+login(${params}): User
 `
